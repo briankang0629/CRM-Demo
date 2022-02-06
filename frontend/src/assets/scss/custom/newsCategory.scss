@@ -1,0 +1,49 @@
+/**
+ * 商品 客制化 CSS
+ *
+ * @since 0.0.1
+ * @version 0.0.1
+ * @author Brian
+ * @date 2021/01/07
+ */
+
+//消息分類清單
+#newsCategory-list {
+	.card-body {
+		.newsCategory-image {
+			> img {
+				width: 50px;
+				height: 50px;
+			}
+		}
+	}
+
+	.card-title {
+		font-size: 14px;
+	}
+}
+
+
+//消息分類編輯頁
+#newsCategory-edit {
+	.nav-link {
+		font-size: 14px;
+		.active {
+			font-size: 14px;
+		}
+	}
+
+	.ck-content {
+		height:300px;
+	}
+
+	//狀態提示字
+	#edit-status {
+		font-size: 12px;
+	}
+
+	.vue-switcher {
+		padding-top: 14px;
+		position: absolute;
+	}
+}

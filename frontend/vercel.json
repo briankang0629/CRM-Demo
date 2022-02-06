@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/:match*",
+            "destination": "https://crm-service-backend-api-kwzm424qaq-de.a.run.app/api/:match*"
+        }
+    ]
+}
